@@ -8,7 +8,7 @@
 
 #import "DWTwitPicUpload.h"
 
-#define TWITPIC_API_KEY = ""
+#define TWITPIC_API_KEY @""
 
 @implementation DWTwitPicUpload
 
