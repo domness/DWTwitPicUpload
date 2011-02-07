@@ -1,0 +1,9 @@
+For this object you need:
+
+    MGTwitterEngine
+    ASIFormDataRequest
+    OAConsumer
+    OARequestHeader
+    OAToken
+
+The object simply takes an NSImage and a few other parameters and sends the image off to TwitPic and returns the response status code and the response string.
