@@ -15,12 +15,10 @@
 @class OAToken;
 
 @interface DWTwitPicUpload : NSObject <NSXMLParserDelegate> {
-	
 	NSData *jpegData;
 	OAConsumer *consumer;
 	OARequestHeader *requestHeader;
 	ASIFormDataRequest *request;
-
 }
 
 - (DWTwitPicUpload *)initWithImage:(NSImage*)img twitterEngine:(MGTwitterEngine *)twitter token:(OAToken *)t;
